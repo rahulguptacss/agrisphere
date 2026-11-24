@@ -1,0 +1,232 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "AgriSphere",
+      "logo_tag": "Global Farming Insights",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Services", "href": "#services" },
+        { "name": "Why Choose Us", "href": "#why" },
+        { "name": "Testimonial", "href": "#stories" },
+        { "name": "Faqs", "href": "#faq" }
+      ],
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "button_text": "Get In Touch",
+      "button_href": "#contact",
+      "menu_label": "Open menu",
+      "close_label": "Close menu"
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "logo_text": "AgriSphere",
+      "logo_tag": "Global Farming Insights",
+      "help_title": "Don't be shy, just say hi! Send an email to",
+      "help_email": "info@xyz.com",
+      "help_note": "for any enquiries.",
+      "button_text": "Send Message",
+      "button_href": "#contact",
+      "menu_title": "Menu",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Services", "href": "#services" },
+        { "name": "Why Choose Us", "href": "#why" },
+        { "name": "Testimonial", "href": "#stories" },
+        { "name": "Faqs", "href": "#faq" }
+      ],
+      "contact_title": "Contact Us",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "socials": [
+        { "name": "Facebook", "href": "https://facebook.com" },
+        { "name": "X", "href": "https://x.com" },
+        { "name": "LinkedIn", "href": "https://linkedin.com" },
+        { "name": "Instagram", "href": "https://instagram.com" },
+        { "name": "YouTube", "href": "https://youtube.com" }
+      ],
+      "watermark": "AgriSphere",
+      "copyright": "Copyright © 2026 AgriSphere. All Rights Reserved."
+    },
+    "BackToTop": { "aria_label": "Back to top" }
+  },
+  "categories": {
+    "Agriculture": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "AgriSphere | Modern Farming for Higher Yield",
+                "description": "Smart farming solutions for higher yield and sustainable growth."
+              },
+              "components": [
+                { "key": "HeroSection", "component": "Hero" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "ServicesSection", "component": "Services" },
+                { "key": "WhySection", "component": "Why" },
+                { "key": "TestimonialsSection", "component": "Testimonials" },
+                { "key": "FaqSection", "component": "Faq" },
+                { "key": "ContactSection", "component": "Contact" }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "eyebrow": "COMPLETE AGRICULTURE KNOWLEDGE HUB",
+              "title": "Modern Farming for Higher Yield &",
+              "title_accent": "Sustainable Growth",
+              "lead": "Get expert guidance, practical farming tips, and the latest agriculture insights to improve productivity, reduce costs, and build a more sustainable future.",
+              "features": [
+                { "icon": "leaf", "label": "Expert Guidance" },
+                { "icon": "gear", "label": "Practical Solutions" },
+                { "icon": "sprout", "label": "Sustainable Farming" }
+              ],
+              "cards": [
+                {
+                  "image": "/img/hero-farmer.webp",
+                  "alt": "Farmer standing in a green field",
+                  "icon": "leaf",
+                  "label": "Better Crop Productivity"
+                },
+                {
+                  "image": "/img/field-sunrise.webp",
+                  "alt": "Crop rows at sunrise",
+                  "icon": "chart",
+                  "label": "Increase Farm Profitability"
+                },
+                {
+                  "image": "/img/drone.webp",
+                  "alt": "Drone spraying a crop field",
+                  "icon": "leaf",
+                  "label": "Smart & Sustainable Farming"
+                }
+              ]
+            },
+            "about": {
+              "id": "about",
+              "eyebrow": "ABOUT US",
+              "title": "Growing a Sustainable Future",
+              "title_accent": "for Farmers",
+              "text": "We are a dedicated platform that brings trusted farming knowledge, practical solutions, and the latest agriculture insights to farmers. Our goal is to promote sustainable farming, improve productivity, and help build a stronger, greener agricultural community.",
+              "image": "/img/about.webp",
+              "image_alt": "Farmer standing in a green field",
+              "field_image": "/img/field-sunrise.webp",
+              "field_alt": "Crop field at sunrise",
+              "badge_label": "ABOUT US"
+            },
+            "services": {
+              "id": "services",
+              "eyebrow": "Our Services",
+              "title": "Comprehensive Solutions for",
+              "title_accent": "Modern Agriculture",
+              "lead": "Expert services designed to help farmers grow smarter, improve yield, and manage their agricultural operations more efficiently.",
+              "banner": "/img/tractor.webp",
+              "banner_alt": "Tractor working in a green field",
+              "prev_label": "Previous service",
+              "next_label": "Next service",
+              "items": [
+                { "icon": "flask", "layout": "photo", "title": "Soil Testing & Analysis", "text": "Check soil health and get a clear plan for nutrients before you plant.", "image": "/img/soil.webp" },
+                { "icon": "drone", "layout": "photo", "title": "Precision Farming", "text": "Use field data to place water, seed, and feed only where it helps.", "image": "/img/drone.webp" },
+                { "icon": "leaf", "layout": "photo", "title": "Sustainable Farming Solutions", "text": "Keep yields high while protecting soil, water, and the next season.", "image": "/img/greenhouse.webp" },
+                { "icon": "tractor", "layout": "photo", "title": "Farm Machinery", "text": "Match machines and timing to your crop so field work stays efficient.", "image": "/img/machinery.webp" },
+                { "icon": "sprout", "layout": "photo", "title": "Crop Advisory", "text": "Expert guidance on crop selection, planning, and management.", "image": "/img/field-sunrise.webp" },
+                { "icon": "leaf", "layout": "photo", "title": "Organic Inputs", "text": "Use compost and natural feed so the soil stays rich without extra chemicals.", "image": "/img/soil.webp" },
+                { "icon": "flask", "layout": "photo", "title": "Water Management", "text": "Plan irrigation so every row gets water only when the crop needs it.", "image": "/img/water.webp" }
+              ]
+            },
+            "why": {
+              "id": "why",
+              "eyebrow": "WHY CHOOSE US",
+              "title": "A Trusted Partner for",
+              "title_accent": "Modern Farming.",
+              "lead": "We combine expertise, technology, and real farming experience to deliver practical, reliable, and sustainable agriculture solutions.",
+              "image": "/img/about2.webp",
+              "image_alt": "Farmer standing in a green field",
+              "side_image": "/img/field-sunrise.webp",
+              "side_alt": "Crop rows at sunrise",
+              "points": [
+                { "icon": "sprout", "title": "Expert Guidance", "text": "Get practical advice from agriculture specialists." },
+                { "icon": "chart", "title": "Higher Productivity", "text": "Data-driven solutions to improve crop yield and profitability." }
+              ]
+            },
+            "testimonials": {
+              "id": "stories",
+              "eyebrow": "TESTIMONIALS",
+              "title": "What Our Farmers Say",
+              "lead": "Real stories from farmers who have improved their farming with our support.",
+              "image": "/img/field-sunrise.webp",
+              "prev_label": "Previous story",
+              "next_label": "Next story",
+              "items": [
+                {
+                  "avatar": "/img/hero-farmer.webp",
+                  "quote": "The guidance and solutions provided by their team have helped me improve my crop yield and reduce costs. A truly reliable and farmer-friendly service.",
+                  "name": "Ramesh Kumar",
+                  "role": "Farmer, Uttar Pradesh",
+                  "stars": 5
+                },
+                {
+                  "avatar": "/img/farmer-field.webp",
+                  "quote": "Soil advice and seasonal plans made the work simpler. My field uses less water now and the crop stays healthier through the season.",
+                  "name": "Suresh Patil",
+                  "role": "Farmer, Maharashtra",
+                  "stars": 5
+                },
+                {
+                  "avatar": "/img/tractor.webp",
+                  "quote": "The team stays in touch after the first visit. I know what to plant, when to water, and where I can cut cost without losing yield.",
+                  "name": "Anita Devi",
+                  "role": "Farmer, Bihar",
+                  "stars": 5
+                }
+              ]
+            },
+            "faq": {
+              "id": "faq",
+              "eyebrow": "FAQ",
+              "title": "Frequently Asked",
+              "title_accent": "Questions",
+              "lead": "Find answers to common questions about our farming practices, services, and solutions.",
+              "image": "/img/soil.webp",
+              "image_alt": "Young seedlings growing in soil",
+              "scene": "/img/field-sunrise.webp",
+              "items": [
+                { "icon": "sprout", "question": "How do I create a vegetable Agriculture?", "answer": "Start with soil that drains well, pick seasonal vegetables, and follow a simple watering plan. We can map the first crop cycle with you." },
+                { "icon": "tractor", "question": "How Farming during the winter months?", "answer": "Use cold-tolerant crops, cover the beds, and water in the morning so the soil does not stay wet overnight." },
+                { "icon": "shield", "question": "How do I prevent in my Agriculture?", "answer": "Check leaves often, keep the field clean, and treat pests early with the method that fits your crop." },
+                { "icon": "handshake", "question": "What are the prerequisites course?", "answer": "No prior course is required. A short intro call is enough to start, and we share the basics before the first visit." }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "watermark": "Contact",
+              "eyebrow": "Contact Us 24/7",
+              "title": "Type Us a",
+              "title_accent": "Word",
+              "lead": "Have questions, suggestions, or need support? We'd love to hear from you. Fill out the form and we'll get back to you soon.",
+              "image": "/img/contact-woman.webp",
+              "image_alt": "Woman in a hat holding a phone",
+              "side_image": "/img/field-sunrise.webp",
+              "side_alt": "Crop field at sunrise",
+              "name_placeholder": "Full Name",
+              "phone_placeholder": "Phone Number",
+              "email_placeholder": "Email Address",
+              "subject_placeholder": "Subject",
+              "message_placeholder": "Your Message",
+              "required_mark": "*",
+              "button_text": "Send Message",
+              "success_message": "Thanks. We have your message."
+            }
+          }
+        }
+      }
+    }
+  }
+}
